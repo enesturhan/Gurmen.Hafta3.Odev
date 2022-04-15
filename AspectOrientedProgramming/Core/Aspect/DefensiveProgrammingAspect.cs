@@ -1,0 +1,27 @@
+﻿using AspectOrientedProgramming.Core.Interceptor;
+using Castle.DynamicProxy;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AspectOrientedProgramming.Core.Aspect
+{
+    public class DefensiveProgrammingAspect: MethodInterception
+
+    {
+        public override void OnBefore(IInvocation invocation)
+        {
+            var parameters = invocation.Arguments;
+            foreach (var p in parameters)
+            {
+                if (p.Equals(null))
+                    throw new ArgumentNullException();
+            }
+            Console.WriteLine("Null check has been completed for {0}",
+                invocation.Method);
+        }
+
+    }
+}

@@ -1,0 +1,15 @@
+﻿Observer Design Pattern
+
+Behavioral design pattern sınıfında geçmektedir. Bu patternin çözmüş olduğu problem bir objenin durumu değiştigi zaman bütün ilişkili olduğu objeleri bilgilendirmesidir.
+Observer tasarım deseni, birden fazla nesneyi takip ettikleri başka bir nesnede gerçekleşen olaylarla ilgili bilgilendirmeyi sağlayan bir abonelik mekanizması oluşturmayı amaçlar.
+Programın çözmenin yanında loosely coupled bir yapı elde etmektedir.
+
+
+Buradaki olayımızda ise bir product eklenme işleminde bu olayla kullanıcıya product eklendi maili ve product eklendi smsi atmak istiyorum.
+
+
+Burada observersubject nesneme yeni observerlar eklemek icin register,remove ve notify metodu vardır.Bu yapılacak işlemleir subject nesneme kaydettiğimde notify bu observerlar icinde dönerek collektionlar icerisindeki update methodunu cagırıyor.
+Bundan sonra kullanıcagımız sınıfta sadece notify observer methodumu cagırmam yeterli olucaktır.Bu method sırayla observelar icerisinde foreach ile donerek calıstırmış oluyor. Böylelikle bizim yeni yazdıgımız methodta sadece notify observer methodunu tanımış oluyor.Böyleliklerle bu observerların diğer methodlarının ne iş yaptıgını bilmemiş oluyor
+
+
+

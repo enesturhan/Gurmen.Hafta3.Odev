@@ -1,0 +1,16 @@
+﻿  AOP kullanmaktaki amac genel olarak logging, caching, transaction gibi olayların(cross-cutting concerns) yönetimidir.
+  Burada castle dynamic proxy, autofac imp. örneği üzerinden AOP yapılmıstır.
+ Proxy Pattern ve decorater pattern gibi yapılar kullanarak keşisen kısımlar güvenle yönetilir.
+ AOP FAYDALARI:
+Temiz kod blokları elde edilir(clean code)
+Kod bloklarını okumak kolaylaşır(easier to read)
+Hatalara daha az açıktır(less prone to bugs)
+Sürdürülmesi daha kolaydır(easier to maintain)
+Tekrarları azaltır(reduce repetetion)
+Test süreçlerini iyileştirir
+Nesne olusmadan önce yapılması gerekenleri yapmaya imkan saglar sonrasında nesne olustuktan sonra yapılması gereken kısımları yapmaya imkan saglar
+
+Kes, kopyala ve yapıştırın ötesinde, Proxy pattern ya da decorator pattern gibi yapıları kullanarak kesişen endişeler güvenle yönetilebilir.
+AOP gerçekleştirmek üzere; PostSharp ya da Castle DynamicProxy gibi araçlar kullanılabilir. Buradaki tercihimiz Castle DynamicProxy dir.
+
+

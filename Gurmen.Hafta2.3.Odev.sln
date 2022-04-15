@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverDesignPattern", "ObserverDesignPattern\ObserverDesignPattern.csproj", "{D9C9719E-5568-4EDC-A9EF-04288E4159A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiProjesiCrud", "ApiProjesiCrud\ApiProjesiCrud.csproj", "{53C7A02D-14D7-40BA-8D5C-4C022274EDEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiProjesiCrud", "ApiProjesiCrud\ApiProjesiCrud.csproj", "{53C7A02D-14D7-40BA-8D5C-4C022274EDEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspectOrientedProgramming", "AspectOrientedProgramming\AspectOrientedProgramming.csproj", "{09CF65FE-11CC-4532-93F0-201075106C13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{53C7A02D-14D7-40BA-8D5C-4C022274EDEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53C7A02D-14D7-40BA-8D5C-4C022274EDEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53C7A02D-14D7-40BA-8D5C-4C022274EDEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09CF65FE-11CC-4532-93F0-201075106C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09CF65FE-11CC-4532-93F0-201075106C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09CF65FE-11CC-4532-93F0-201075106C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09CF65FE-11CC-4532-93F0-201075106C13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
